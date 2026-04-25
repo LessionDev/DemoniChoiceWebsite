@@ -9,6 +9,7 @@ body {
 
 .navbar {
   background-color: black;
+  text-align: center;
   align-items: center;
   justify-content: space around;
   color: white;
