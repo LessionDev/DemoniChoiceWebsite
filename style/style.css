@@ -2,6 +2,7 @@
 
 .navbar {
   width: 100vw;
+  height: 15vh;
   background-color: black;
 }
 
@@ -26,7 +27,7 @@ section {
     display: flex;
     flex-direction: row;
     align-items: center;
-    height:100vh;
+    height: 100vh;
 }
 
 .section:nth-child(even) {
