@@ -9,6 +9,13 @@ body {
 
 .navbar {
   background-color: black;
+  align-items: center;
+  justify-content: space around;
+  color: white;
+}
+
+.menu {
+
 }
 
 ul {
@@ -52,6 +59,11 @@ h1 {
     cursor: pointer;
     top: 91%;
     left: 93%;
+}
+
+/* Attribut */
+.unshow {
+  display: none;
 }
 
 /* Responsive */
