@@ -17,10 +17,6 @@
     width: 100%;
     grid-area: navbar;
     font-weight: bold;
-    grid-row-start: 1;
-    grid-row-end: 1;
-    grid-column-start: 1;
-    grid-column-end: 3;
     background-color: black;
 }
 
