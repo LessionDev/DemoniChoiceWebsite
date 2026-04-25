@@ -1,20 +1,7 @@
-.gridContainer {
-  display: grid;
-  gap: 3px;
-  grid-template-columns: 1fr;
-  grid-template-areas:
-    "navbar"
-    "HomeDiv"
-    "AboutSDiv"
-    "DownloadDiv"
-    "AboutUDiv";
-}
-
 /* Navbar Design */
 
 .navbar {
   width: 100%;
-  grid-area: navbar;
   background-color: black;
 }
 
@@ -47,26 +34,18 @@ li a {
 
 .HomeDiv {
     background-color: aliceblue;
-    grid-area: HomeDiv;
-
 }
 
 .AboutSDiv {
     background-color: bisque;
-    grid-area: AboutSDiv;
-
 }
 
 .DownloadDiv {
     background-color: aliceblue;
-    grid-area: DownloadDiv;
-
 }
 
 .AboutUDiv {
     background-color: bisque;
-    grid-area: AboutUDiv;
-
 }
 
 /* TopBtn */
@@ -83,7 +62,17 @@ li a {
 /* Responsive */
 
 @media (max-width: 768px) {
+  
+  /* Responsive Section */ 
+  
   .section {
-    flex-direction: column;
+      flex-direction: column;
+  }
+  
+  /* Responsive Button */
+  
+  .topBtn {
+      top: 80%
+      left: 82%
   }
 }
