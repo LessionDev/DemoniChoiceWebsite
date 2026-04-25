@@ -36,6 +36,10 @@ section {
     flex-direction: row-reverse; /* alterne image */ 
 }
 
+h1 {
+  color: white;
+}
+
 /* TopBtn */
 .topBtn {
     position: fixed;
