@@ -23,6 +23,14 @@
     grid-column-end: 3;
 }
 
+ul li {
+    list-decoration: none;   
+}
+
+li a {
+    text-decoration: none;
+}
+
 /* Section Design */
 
 .HomeDiv {
