@@ -26,7 +26,11 @@ section {
     display: flex;
     flex-direction: row;
     align-items: center;
-    min-height: 100vh;
+    height: 100vh;
+}
+
+section:first-child {
+  height: 30vh;
 }
 
 .section:nth-child(even) {
