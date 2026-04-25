@@ -7,7 +7,7 @@ body {
 
 /* Navbar Design */
 
-.navbar {
+nav {
   display: flex;
   background-color: black;
 }
