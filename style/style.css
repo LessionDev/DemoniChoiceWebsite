@@ -2,7 +2,6 @@
 
 .navbar {
   width: 100vh;
-  height: 15vh;
   background-color: black;
 }
 
@@ -74,7 +73,7 @@ section {
   /* Responsive Button */
   
   .topBtn {
-      top: 80%;
+      top: 83%;
       left: 82%;
   }
 }
