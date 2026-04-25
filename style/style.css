@@ -21,7 +21,7 @@ li a {
 
 /* Section Design */
 
-.section {
+section {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -65,7 +65,7 @@ li a {
   
   /* Responsive Section */ 
   
-  .section {
+  section {
       flex-direction: column;
   }
   
