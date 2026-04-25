@@ -14,6 +14,7 @@
 /* Navbar Design */
 
 .navbar {
+    width: 100%;
     grid-area: navbar;
     font-weight: bold;
     grid-row-start: 1;
