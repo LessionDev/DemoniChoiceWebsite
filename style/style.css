@@ -1,0 +1,61 @@
+.gridContainer {
+    display: grid;
+    gap: 3px;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 100% 300% 300% 300% 300%;
+    grid-template-areas: 
+    "navbar navbar"
+    "HomeDiv HomeDiv"
+    "AboutSDiv AboutSDiv"
+    "DownloadDiv DownloadDiv"
+    "AboutUDiv AboutUDiv";
+}
+
+/* Navbar Design */
+
+.navbar {
+    grid-area: navbar;
+    text-align: center;
+    align-items: center;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+/* Section Design */
+
+.HomeDiv {
+    background-color: aliceblue;
+    grid-area: HomeDiv;
+
+}
+
+.AboutSDiv {
+    background-color: bisque;
+    grid-area: AboutSDiv;
+
+}
+
+.DownloadDiv {
+    background-color: aliceblue;
+    grid-area: DownloadDiv;
+
+}
+
+.AboutUDiv {
+    background-color: bisque;
+    grid-area: AboutUDiv;
+
+}
+
+/* TopBtn */
+.topBtn {
+    position: fixed;
+    font-size: 50px;
+    border: 2px solid aquamarine;
+    background-color: aliceblue;
+    cursor: pointer;
+    top: 91%;
+    left: 93%;
+}
