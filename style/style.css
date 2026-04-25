@@ -36,22 +36,6 @@ section {
     flex-direction: row-reverse; /* alterne image */ 
 }
 
-.HomeDiv {
-    background-color: aliceblue;
-}
-
-.AboutSDiv {
-    background-color: bisque;
-}
-
-.DownloadDiv {
-    background-color: aliceblue;
-}
-
-.AboutUDiv {
-    background-color: bisque;
-}
-
 /* TopBtn */
 .topBtn {
     position: fixed;
