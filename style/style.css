@@ -8,6 +8,7 @@ body {
 /* Navbar Design */
 
 .navbar {
+  display: flex;
   background-color: black;
 }
 
