@@ -2,7 +2,7 @@
     display: grid;
     gap: 3px;
     grid-template-columns: 50% 50%;
-    grid-template-rows: 100% 300% 300% 300% 300%;
+    grid-template-rows: 50% 300% 300% 300% 300%;
     grid-template-areas: 
     "navbar navbar"
     "HomeDiv HomeDiv"
@@ -15,20 +15,27 @@
 
 .navbar {
     grid-area: navbar;
-    text-align: center;
-    align-items: center;
+    font-weight: bold;
     grid-row-start: 1;
     grid-row-end: 1;
     grid-column-start: 1;
     grid-column-end: 3;
+    background-color: ; #232e33;
 }
 
-ul li {
-    list-decoration: none;   
+ul {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    list-style: none;   
+    margin: 0;
+    padding: 1em 0;
 }
 
 li a {
     text-decoration: none;
+    color: white;
+    padding: 1.5em;
 }
 
 /* Section Design */
